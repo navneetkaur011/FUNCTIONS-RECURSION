@@ -17,4 +17,5 @@ def nothing():
     print("\nNothing to do.")
 
 print(nothing()) # this will print None
+# End of basic function examples.
 
