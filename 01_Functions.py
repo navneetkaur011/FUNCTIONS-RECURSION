@@ -19,3 +19,9 @@ def nothing():
 print(nothing()) # this will print None
 # End of basic function examples.
 
+def square(num):
+    return num * num
+
+print(square(4))
+print(square(256))
+
