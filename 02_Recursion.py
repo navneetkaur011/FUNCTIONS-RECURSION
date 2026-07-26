@@ -8,7 +8,7 @@ def calc_sum(n):
     return n + calc_sum(n - 1)
 
 sum_result = calc_sum(5)
-print(f"The sum of first 5 natural numbers is: {sum_result}")
+print("The sum of first 5 natural numbers is:",sum_result)
 
 # Recursive function to calculate factorial
 def factorial(n):
@@ -17,4 +17,4 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-print(f"The factorial of 4 is: {factorial(4)}")
+print("The factorial of 4 is:",factorial(4))
