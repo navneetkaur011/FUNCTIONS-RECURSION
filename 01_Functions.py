@@ -20,7 +20,7 @@ print(nothing()) # this will print None
 # End of basic function examples.
 
 def square(num):
-    return num * num
+    return num * num # Note: Always remember to use return statements when you need to store function output.
 
 print(square(4))
 print(square(256))
