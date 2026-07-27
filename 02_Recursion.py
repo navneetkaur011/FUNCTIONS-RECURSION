@@ -28,3 +28,16 @@ def calc_power(base, n):
     return base * calc_power(base, n - 1)
 
 print("2 to the power 3 is:", calc_power(2, 3))
+
+# Recursive function to print numbers backwards from n down to 1
+def show(n):
+    # Base case
+    if n == 0:
+        return
+    print(n)
+    # Recursive call
+    show(n - 1)
+
+print("Printing numbers from 5 down to 1:")
+show(5)
+
