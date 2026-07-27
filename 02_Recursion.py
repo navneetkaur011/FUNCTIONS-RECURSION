@@ -18,3 +18,13 @@ def factorial(n):
     return n * factorial(n - 1)
 
 print("The factorial of 4 is:",factorial(4))
+
+# Recursive function to find the power of a number (stack power: x^n)
+def calc_power(base, n):
+    # Base case
+    if n == 0:
+        return 1
+    # Recursive step
+    return base * calc_power(base, n - 1)
+
+print("2 to the power 3 is:", calc_power(2, 3))
