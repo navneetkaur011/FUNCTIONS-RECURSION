@@ -34,4 +34,19 @@ def calc_avg(a, b, c):
 
 calc_avg(98, 97, 95)
 
+# Demonstrating built-in functions vs user-defined functions
+
+# Built-in functions example
+print("Length of string:", len("ApnaCollege"))
+print("Type example:", type(10))
+
+# Default arguments example taught in Apna College
+def cal_prod(a=1, b=2):
+    print("Product is:", a * b)
+    return a * b
+
+cal_prod()  # Uses default values
+cal_prod(5) # Uses a=5, b=2
+
+
 
