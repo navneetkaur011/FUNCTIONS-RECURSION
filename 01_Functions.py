@@ -25,3 +25,13 @@ def square(num):
 print(square(4))
 print(square(256))
 
+# Function to calculate the average of 3 numbers
+def calc_avg(a, b, c):
+    sum_val = a + b + c
+    avg = sum_val / 3
+    print("The average is:", avg)
+    return avg
+
+calc_avg(98, 97, 95)
+
+
