@@ -11,3 +11,15 @@ def print_len(list_item):
 
 print_len(cities)
 print_len(heroes)
+
+print("\nQues.2- Find the factorial of n using a loop inside a function.")
+
+def cal_factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    print("The factorial of", n, "is:", fact)
+    return fact
+
+cal_factorial(5)
+cal_factorial(4)
