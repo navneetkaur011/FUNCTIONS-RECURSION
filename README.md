@@ -1,12 +1,13 @@
 # 🚀 PYTHON FUNCTIONS & RECURSION 
 Core Python fundamentals for functions and recursion. Features structured scripts covering user-defined functions, parameters, return values, scope, and recursive logic.
 
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 Every file in this directory represents a key milestone in learning functions and recursion concepts:
 
 * **`01_Functions.py`** - Implementing user-defined functions, parameters, arguments, return statements, and modular code blocks.
+* **`02_Recursion.py`** - Exploring base cases and recursive problem-solving techniques like natural sums and factorials.
+* **`03_Questions.py`** - Practicing Apna College playlist problems including list printing functions, loops inside functions, and recursive list traversal.
 
 ---
 
