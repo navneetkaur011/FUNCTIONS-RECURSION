@@ -23,3 +23,17 @@ def cal_factorial(n):
 
 cal_factorial(5)
 cal_factorial(4)
+
+print("\nQues.3- Write a recursive function to print all elements in a list.") 
+
+def print_elem(lst, idx=0):
+    # Base case
+    if idx == len(lst):
+        return
+    print(lst[idx])
+    # Recursive call
+    print_elem(lst, idx + 1)
+
+fruits = ["apple", "banana", "litchi", "mango"]
+print("Printing list elements recursively:")
+print_elem(fruits)
